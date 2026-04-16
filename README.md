@@ -62,20 +62,25 @@ The application will prompt you for input. It sends the text and the translation
 **Example Interaction:**
 
 ```
-> Enter text to translate (or type 'exit' to quit):
-Hello, how are you doing today?
-> Target Language (e.g., French, Spanish):
-French
-> Translation:
-Bonjour, comment allez-vous aujourd'hui ?
+Insert a Phrase (0 to EXIT) >> Hello, how are you doing today?
 
-> Enter text to translate (or type 'exit' to quit):
-exit
+Insert the Language to Translate >> 
+
+> French
+> Portuguese
+> German
+> Italian
+
+Translation: Bonjour, comment allez-vous aujourd'hui ?
+
+========================================================================
+
+Insert a Phrase (0 to EXIT) >> 0
+
+Finishing App...
 ```
 
 ### 3. Configuration (Optional)
-
-If you need to change the default model or API settings, modify the configuration file (e.g., `config.js` or environment variables).
 
 *   **To change the model:** Update the `MODEL_NAME` constant in your configuration file to match a model you have pulled via Ollama (e.g., `"mistral"`).
 
@@ -88,7 +93,7 @@ This project is open-source and welcomes contributions!
 To run the application in development mode (useful for debugging):
 
 ```bash
-npm run dev
+npm run start
 ```
 
 ### Contributing
