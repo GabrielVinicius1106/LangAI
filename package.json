@@ -1,0 +1,22 @@
+{
+  "name": "lingai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/main.ts"
+  },
+  "keywords": [],
+  "author": "Gabriel Vinícius da Cruz",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  },
+  "dependencies": {
+    "inquirer": "^13.4.1",
+    "ollama": "^0.6.3"
+  }
+}
